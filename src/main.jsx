@@ -7,6 +7,8 @@ import ContactPage from './pages/ContactPage.jsx';
 // import ResumePage from './pages/ResumePage.jsx'
 import { createBrowserRouter, RouterProvider} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import PortfolioPage from './pages/PortfolioPage.jsx';
+import ResumePage from './pages/ResumePage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -21,14 +23,14 @@ const router = createBrowserRouter([
         path: 'contact',
         element: <ContactPage/>
       },
-      // {
-      //   path: 'portfolio',
-      //   element: <PortfolioPage/>
-      // },
-      // {
-      //   path: 'resume',
-      //   element: <ResumePage/>
-      // },
+      {
+        path: 'portfolio',
+        element: <PortfolioPage/>
+      },
+      {
+        path: 'resume',
+        element: <ResumePage/>
+      },
     ],
   },
 ]);

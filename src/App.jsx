@@ -1,14 +1,16 @@
-import './App.css'
 import { Outlet } from 'react-router-dom'
 import Nav from './Components/Nav'
+import Footer from './Components/Footer'
+import './Css/style.css'
 
 function App() {
 
   return (
-    <>
+    <div className = "stack">
       <Nav />
       <Outlet />
-    </>
+      <Footer/>
+    </div>
   )
 }
 
