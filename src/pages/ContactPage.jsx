@@ -15,6 +15,9 @@ export default function ContactPage() {
     <span className="input-group-text" id="inputGroup-sizing-lg">Message</span>
     <input type="text" className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"/>
 </div>
+<div className="col-12">
+    <button className="btn btn-primary" type="submit">Submit form</button>
+</div>
         </div>
     )
 }
