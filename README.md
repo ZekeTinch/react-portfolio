@@ -1,8 +1,10 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+For this assignment i started by running the vite commands to build out the portfolio.
 
-Currently, two official plugins are available:
+I made a components folder to store my footer, header and nav files these were then imported to the app.jsx.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+For the pages folder i made an about, contact, portfolio and resume files, To build out each page I used bootstrap to find examples.
+
+Github link: https://github.com/ZekeTinch/react-portfolio 
+Deployed site link: https://react-portfolio-1976.onrender.com/ 
